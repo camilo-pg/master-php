@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- ejemplo de etiqueta  <etiqueta  atributo="valor"></etiqueta> -->
+<html lang="es">
+    <head> 
+        <!-- En el head van los metadatos, información que no se va a ver -->
+        <title> Primera Web </title>
+
+    </head>
+    <body>
+        <h1>Titulo de la Web</h1>
+        <h2>Bienvenidos</h2>
+
+        <!--Etiquetas de texto-->
+        <p></p> <!--parrafos-->
+        <br/> <!--salto de línea-->
+        <hr> <!--salto de línea pintada-->
+        <em></em> <!--cambia un texto a cursiva-->
+        <blockquote></blockquote> <!--texto en formato de cita-->
+
+        <!--Etiquetas de listas-->
+        <ol></ol> <!--listas ordenadas cada elemento se creo con <li> -->
+        <ul></ul> <!--lista desordenada-->
+
+        <!--Imagenes-->
+        <img alt="texto cuando no carga la imagen" title="titulo je" src="Imagenes/descarga.jpeg"/>
+
+        <!--Tablas-->
+        <table border="1">
+            <tr> <!--filas-->
+                <th>Nombre</th> <!--columnas-->
+                <th>Apellido</th>
+            </tr>
+            <tr>
+                <td>Fulane</td>
+                <td>De cuarto</td>
+            </tr>
+        </table>
+
+        <hr>
+        <!--Formulario-->
+        <form>
+            <p>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Pon tu nombre"/>
+            </p>
+
+            <p>
+                <label for="descripcion">Descripcion</label>
+                <textarea name="descripcion"></textarea>
+            </p>
+
+            <p>
+                <input type="radio" name="genero" value="hombre"> Hombre <br/>
+                <input type="radio" name="genero" value="mujer"> Mujer <br/>
+                <input type="radio" name="genero" value="otro"> Otros <br/>
+            </p>
+
+            <select name="selectgen">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="otro">Otros</option>
+            </select>
+
+            <input type="submit" value="Enviar Formulario" />
+        </form>
+
+    </body>
+
+
+</html>
