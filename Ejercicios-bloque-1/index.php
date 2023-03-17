@@ -38,6 +38,8 @@ if (isset($_GET['numero1']) && isset($_GET['numero2'])){
     echo 'Falta pasar por lo menos un número.';
 }
 
+echo 'modificado';
+
 
 
 ?>
